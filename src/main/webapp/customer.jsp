@@ -38,11 +38,11 @@
             <form class="row p-3" id="customer_add_form">
                 <div class="col-12 col-md-3 mb-3">
                     <label for="cname" class="form-label">Adı</label>
-                    <input type="text" name="cname" id="cname" class="form-control" />
+                    <input type="text" name="cname" id="cname" class="form-control" required/>
                 </div>
                 <div class="col-12 col-md-3 mb-3">
                     <label for="csurname" class="form-label">Soyadı</label>
-                    <input type="text" name="csurname" id="csurname" class="form-control" />
+                    <input type="text" name="csurname" id="csurname" class="form-control" required />
                 </div>
                 <div class="col-12 col-md-3 mb-3">
                     <label for="ctitle" class="form-label">Ünvan (Şirket)</label>
@@ -50,13 +50,13 @@
                 </div>
                 <div class="col-12 col-md-3 mb-3">
                     <label for="ccode" class="form-label">Müşteri Kodu</label>
-                    <input type="number" name="ccode" id="ccode" class="form-control" />
+                    <input type="number" name="ccode" id="ccode" class="form-control" required />
                 </div>
 
                 <div class="col-12 col-md-3 mb-3">
                     <label for="ctype" class="form-label">Müşteri Türü</label>
-                    <select class="form-select" name="ctype" id="ctype">
-                        <option value="0" >Seçiniz</option>
+                    <select class="form-select" name="ctype" id="ctype" required>
+                        <option>Seçiniz</option>
                         <option value="1">Kurumsal</option>
                         <option value="2">Birseysel</option>
                     </select>
@@ -64,7 +64,7 @@
 
                 <div class="col-12 col-md-3 mb-3">
                     <label for="tax" class="form-label">Vergi No / Tc No</label>
-                    <input type="number" name="tax" id="tax" class="form-control" />
+                    <input type="number" name="tax" id="tax" class="form-control" required />
                 </div>
 
                 <div class="col-12 col-md-3 mb-3">
@@ -74,12 +74,12 @@
 
                 <div class="col-12 col-md-3 mb-3">
                     <label for="address" class="form-label">Adres</label>
-                    <input type="text" name="address" id="address" class="form-control" />
+                    <input type="text" name="address" id="address" class="form-control" required/>
                 </div>
 
                 <div class="col-12 col-md-3 mb-3">
                     <label for="mobile_phone" class="form-label">Cep Telefonu</label>
-                    <input type="text" name="mobile_phone" id="mobile_phone" class="form-control" />
+                    <input type="text" name="mobile_phone" id="mobile_phone" class="form-control" required/>
                 </div>
 
                 <div class="col-12 col-md-3 mb-3">
@@ -89,7 +89,7 @@
 
                 <div class="col-12 col-md-3 mb-3">
                     <label for="email" class="form-label">E-Mail</label>
-                    <input type="email" name="email" id="email" class="form-control" />
+                    <input type="email" name="email" id="email" class="form-control"/>
                 </div>
 
                 <div class="col-12 col-md-3 mb-3">
