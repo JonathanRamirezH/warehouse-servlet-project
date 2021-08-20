@@ -88,7 +88,7 @@
       </div>
 
       <div class="col-sm-4 mb-3">
-        <a href="">
+        <a href="payIn.jsp">
           <div class="card cardBackground4" id="card">
             <div class="card-body">
               <div style="display: flex; justify-content: space-between;">

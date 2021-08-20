@@ -35,7 +35,7 @@
         <div class="main-card mb-3 card mainCart">
             <div class="card-header cardHeader">Müşteri Ekle</div>
 
-            <form class="row p-3">
+            <form class="row p-3" id="customer_add_form">
                 <div class="col-12 col-md-3 mb-3">
                     <label for="cname" class="form-label">Adı</label>
                     <input type="text" name="cname" id="cname" class="form-control" />
@@ -168,6 +168,9 @@
 <!--JS JSP-->
 <jsp:include page="inc/js.jsp"></jsp:include>
 <!--JS JSP-->
+<!--Script-->
+<script src="js/customer.js"></script>
+<!--Script-->
 </body>
 
 </html>

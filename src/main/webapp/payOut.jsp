@@ -12,7 +12,7 @@
 <body>
 
 <div class="wrapper d-flex align-items-stretch">
-    <jsp:include page="inc/sideBar.jsp.jsp"></jsp:include>
+    <jsp:include page="inc/sideBar.jsp"></jsp:include>
     <div id="content" class="p-4 p-md-5">
         <jsp:include page="inc/topMenu.jsp"></jsp:include>
         <h3 class="mb-3">
