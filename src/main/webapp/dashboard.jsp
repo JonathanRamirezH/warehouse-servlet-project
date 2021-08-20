@@ -16,7 +16,7 @@
 
     <div class="wrapper d-flex align-items-stretch">
             <!-- SlideBar Section  -->
-            <jsp:include page="inc/slideBar.jsp"></jsp:include>
+            <jsp:include page="inc/sideBar.jsp"></jsp:include>
             <!-- SlideBar Section  -->
 
             <!-- Page Content  -->
